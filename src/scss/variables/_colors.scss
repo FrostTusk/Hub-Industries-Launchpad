@@ -6,11 +6,14 @@
 
 $pink: #ee0979;
 $orange: #ff6a00;
+$teal: #008080;
+$coral: #ff7f50;
+
 
 // Override Bootstrap default state colors
 
-$primary: $pink;
-$secondary: $orange;
+$primary: $teal;
+$secondary: $coral;
 
 // The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
 // See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
