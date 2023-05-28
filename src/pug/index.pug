@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Hub Industries Landing Page
+        title Hub Industries Launchpad
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
@@ -43,9 +43,9 @@ html(lang='en')
                 .container.px-5
                     .row.gx-5.align-items-center
                         img.img-fluid(src='assets/img/HubIndLogo.png', alt='...')
-                    //- h1.masthead-heading.mb-0 Hub Industries
+                    //h1.masthead-heading.mb-0 Hub Industries
                     //h2.masthead-subheading.mb-0 Will Rock Your Socks Off
-                    a.btn.btn-primary.btn-xl.pill.mt-5(href='#scroll') Go to websites
+                    a.btn.btn-primary.btn-xl.pill.mt-5(href='#scroll') Launch me!
             .bg-circle-1.bg-circle
             .bg-circle-2.bg-circle
             .bg-circle-3.bg-circle
@@ -55,6 +55,51 @@ html(lang='en')
         section#scroll
             .container.px-5
                 .row.gx-5.align-items-center.justify-content-center
+                    .col-lg-4
+                        .p-5
+                            img.img-fluid(src='assets/img/portfolio-logo.png', alt='...')
+                    .col-lg-5
+                        .p-5
+                            h2.display-5 Portfolio
+                            p
+                                | Portfolio is my virtual business card. Showcasing all my various cool projects in a public-friendly manner.
+                            ul.list-group
+                                li.list-group-item <strong>#[a(href="https://hub.industries/me") hub.industries/me]</strong>
+        
+        // Content section 2
+        section
+            .container.px-5
+                .row.gx-5.align-items-center.justify-content-center
+                    .col-lg-4.order-lg-2
+                        .p-5
+                            img.img-fluid(src='assets/img/tea-house-logo.png', alt='...')
+                    .col-lg-5.order-lg-1
+                        .p-5
+                            h2.display-5 Tea House
+                            p
+                                | Come take a look at my collection of teas!
+                            ul.list-group
+                                li.list-group-item <strong>#[a(href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSH82WtQbLwApxsQuIgA5bb8rJ9Xf0Ol0LSAKudxFacqsUuJHkiO8ZHbEGOiv4a-Uh8rVa4IbfTVkJs/pubhtml?gid=1652875201&single=true") teahouse spreadsheet]</strong>
+
+        // Content section 3
+        section
+            .container.px-5
+                .row.gx-5.align-items-center.justify-content-center
+                    .col-lg-4
+                        .p-5
+                            img.img-fluid(src='assets/img/malibu-point-logo.png', alt='...')
+                    .col-lg-5
+                        .p-5
+                            h2.display-5 Malibu Point
+                            p
+                                | Malibu-Point is a smart-home ecosystem which makes use of (amongst others) Home Assistant, Google Home, and various other components.
+                            ul.list-group
+                                li.list-group-item <strong>#[a(href="https://malibu-point.hub.industries") malibu-point.hub.industries]</strong>
+
+        // Content section 4
+        section
+            .container.px-5
+                .row.gx-5.align-items-center.justify-content-center
                     .col-lg-4.order-lg-2
                         .p-5
                             img.img-fluid(src='assets/img/zoo-museum-logo.png', alt='...')
@@ -62,63 +107,22 @@ html(lang='en')
                         .p-5
                             h2.display-5  Zoo Museum
                             p
-                                i found at #[a(href="https://wiki.hub.industries") wiki.hub.industries]
-                                br
                                 | The Zoo Museum is a wiki dedicated to Hub Industries and its various endeavours.
-
-        // Content section 2
-        section
-            .container.px-5
-                .row.gx-5.align-items-center.justify-content-center
-                    .col-lg-4
-                        .p-5
-                            img.img-fluid(src='assets/img/tea-house-logo.png', alt='...')
-                    .col-lg-5
-                        .p-5
-                            h2.display-5 Tea House
-                            p
-                                i found #[a(href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSH82WtQbLwApxsQuIgA5bb8rJ9Xf0Ol0LSAKudxFacqsUuJHkiO8ZHbEGOiv4a-Uh8rVa4IbfTVkJs/pubhtml?gid=1652875201&single=true") here]
-                                br
-                                | Come take a look at my collection of teas. 
-
-        // Content section 3
-        section
-            .container.px-5
-                .row.gx-5.align-items-center.justify-content-center
-                    .col-lg-4.order-lg-2
-                        .p-5
-                            img.img-fluid(src='assets/img/malibu-point-logo.png', alt='...')
-                    .col-lg-5.order-lg-1
-                        .p-5
-                            h2.display-5 Malibu Point
-                            p
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.
-
-        // Content section 4
-        section
-            .container.px-5
-                .row.gx-5.align-items-center.justify-content-center
-                    .col-lg-4
-                        .p-5
-                            img.img-fluid.rounded-circle(src='assets/img/03.jpg', alt='...')
-                    .col-lg-5
-                        .p-5
-                            h2.display-5 Portfolio
-                            p
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.
+                            ul.list-group 
+                                li.list-group-item <strong>#[a(href="https://wiki.hub.industries") wiki.hub.industries]</strong>
         
         // Content section 5
         section.mx-auto
             .container.px-5
                 .row.gx-5.align-items-center.justify-content-center
-                    .col-lg-4.order-lg-2
+                    .col-lg-4
                         .p-5
-                            img.img-fluid.rounded-circle(src='assets/img/03.jpg', alt='...')
-                    .col-lg-5.order-lg-1
+                            img.img-fluid(src='assets/img/documentation-logo.png', alt='...')
+                    .col-lg-5
                         .p-5
                             h2.display-5 Documentation
                             p
-                                | Hub Industries hosts the documentation of various websites, see below.
+                                | Hub Industries hosts the documentation of various websites, learn more.
                             
                             ul
                                 li <i>Zoo Architecture #[a(href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSH82WtQbLwApxsQuIgA5bb8rJ9Xf0Ol0LSAKudxFacqsUuJHkiO8ZHbEGOiv4a-Uh8rVa4IbfTVkJs/pubhtml?gid=1652875201&single=true") here]</i>
