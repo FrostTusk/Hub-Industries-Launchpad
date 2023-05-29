@@ -31,11 +31,11 @@ html(lang='en')
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarResponsive.collapse.navbar-collapse
-                    ul.navbar-nav.ms-auto
-                        li.nav-item
-                            a.nav-link(href='https://panthera.hub.industries') panthera
-                        li.nav-item
-                            a.nav-link(href='https://hyaena.hub.industries') hyaena
+                    //- ul.navbar-nav.ms-auto
+                    //-     li.nav-item
+                    //-         a.nav-link(href='https://panthera.hub.industries') panthera
+                    //-     li.nav-item
+                    //-         a.nav-link(href='https://hyaena.hub.industries') hyaena
 
         // Header
         header.masthead.text-center.text-white
@@ -111,20 +111,37 @@ html(lang='en')
                             div.list-group 
                                 a.list-group-item.list-group-item-action(href="https://wiki.hub.industries") <strong>wiki.hub.industries</strong>
         
-        // Content section 5
+                // Content section 5
         section.mx-auto
             .container.px-5
                 .row.gx-5.align-items-center.justify-content-center
                     .col-lg-4
                         .p-5
-                            img.img-fluid(src='assets/img/documentation-logo.png', alt='...')
+                            img.img-fluid(src='assets/img/zoo-network-logo.png', alt='...')
                     .col-lg-5
+                        .p-5
+                            h2.display-5 zoo-net
+                            p
+                                | A DIY home lab and computer network, originally built by recycling old computer equipment.
+                            div.list-group
+                                a.list-group-item.list-group-item-action(href="https://panthera.hub.industries") <strong>panthera.hub.industries</strong>
+                                a.list-group-item.list-group-item-action(href="https://hyaena.hub.industries") <strong>hyaena.hub.industries</strong>
+
+        // Content section 6
+        section.mx-auto
+            .container.px-5
+                .row.gx-5.align-items-center.justify-content-center
+                    .col-lg-4.order-lg-2
+                        .p-5
+                            img.img-fluid(src='assets/img/documentation-logo.png', alt='...')
+                    .col-lg-5.order-lg-1
                         .p-5
                             h2.display-5 Documentation
                             p
                                 | Hub Industries hosts the documentation of various websites.
                             div.list-group
                                 a.list-group-item.list-group-item-action(href="") <strong>hub.industries/docs/zoo-architecture</strong>
+
         // Footer
         footer.py-5.bg-black
             .container.px-5
